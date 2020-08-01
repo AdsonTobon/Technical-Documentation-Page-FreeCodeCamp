@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header{
+    font-family: 'Neucha', cursive;
+    margin: 10px;
+    
+}
+
+nav{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background: rgb(104, 161, 152);
+    padding: 2%;
+    overflow: scroll;
+
+}
+
+nav hr{
+    width: 100%;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+nav ul li{
+    margin-top: 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+/*------------------ Media Query Nav ----------------*/
+
+
+
+@media (max-width: 750px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    
+
+
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 40%;
+        background: rgb(104, 161, 152);
+        padding: 2%;
+        
+        overflow: scroll;
+
+    }
+
+    #main-doc{
+        
+        width: 100%;
+        
+        margin: 300px auto;
+        
+        
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+main{
+    width: 80%;
+    margin: auto auto auto 300px ;
+}
+
+main .main-section{
+    margin:40px;
+}
+
+main .main-section header{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+main .main-section article{
+    margin-left: 30px;
+}
+
+main .main-section p{
+    margin: 10px;
+}
+
+
